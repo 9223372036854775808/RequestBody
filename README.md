@@ -2,7 +2,7 @@
 A simple Grails web application that simply returns information about whatever incoming HTTP request it was called with, including the request method, all request headers and values, and the request body. Useful for debugging.
 
 ## Usage
-Simply deploy target/RequestBody.war to any Java web application server or container, such as Tomcat.
+Simply deploy [target/RequestBody.war] to any Java web application server or container, such as Tomcat.
 
 From your clientside application, call ```url-of-server/RequestBody/callMe/maybe```, with the necessary headers and body.
 
@@ -31,4 +31,4 @@ BODY:
 
 ## Modifying the App
 
-Code is simply at grails-app\controllers\requestbody\CallMeController.groovy 
+Code is simply at [grails-app\controllers\requestbody\CallMeController.groovy]
